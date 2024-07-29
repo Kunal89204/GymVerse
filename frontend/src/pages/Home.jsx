@@ -53,7 +53,7 @@ export default function Home() {
 
 
 
-        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-12 lg:min-h-screen 2xl:min-h-[80vh] lg:pt-4 lg:grid-cols-12">
           <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <Lottie animationData={gif} loop={true} />
           </div>
